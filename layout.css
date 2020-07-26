@@ -328,8 +328,8 @@ div.works-showcase-image {
   position: relative;
   display: block;
   margin: 0 auto 36px;
-  /* width: 30rem;
-  height: 30rem; */
+  width: 33rem;
+  height: 23rem;
   overflow: hidden;
   text-align: center;
 }
@@ -338,6 +338,8 @@ div.works-showcase-image img {
   margin-bottom: 0;
   overflow: hidden;
   z-index:1;
+  width: 33rem;
+  height: 20rem;
 }
 
 div.works-showcase-image-caption,
@@ -459,6 +461,8 @@ div.works-showcase-image-caption {
 #social a.twitter:hover {background-color: #55acee;}
 #social a.github {color: #faf9fc;}
 #social a.github:hover {background-color: #125688;}
+#social a.resume {color: #faf9fc;}
+#social a.resume:hover {background-color: #125688;}
 
 #elevator {
   position: fixed;
