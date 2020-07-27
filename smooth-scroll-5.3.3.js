@@ -1,9 +1,6 @@
-/** I wanted a better portfolio and was told github templates were exceptable.
- * smooth-scroll v5.3.3
-
- * Free to use under the MIT License.
- * http://gomakethings.com/mit/
- */
+//  * smooth-scroll v5.3.3
+//  * Free to use under the MIT License.
+//  */
 
 (function (root, factory) {
     if (typeof define === 'function' && define.amd) {

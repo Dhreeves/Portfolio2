@@ -185,7 +185,14 @@ a.navlink:hover {
 .abtText {
   font-family: 'Open Sans', sans-serif; 
   font-weight: 300;
+  padding: 0px 30px;
   /*text-align: justify;*/
+}
+
+
+.slide-in-fwd-center {
+  -webkit-animation: slide-in-fwd-center 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+          animation: slide-in-fwd-center 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 }
 
 #skills {
@@ -305,6 +312,23 @@ div.skillsTrioWrap div.skillsTrioIMG .fa-tshirt {
   color: #000;
   font-weight: 300;
 }
+
+button { 
+background-color: rgb(182, 177, 177);
+color: white;
+border-radius: 4px;
+-o-transition: .5s;
+-ms-transition: .5s;
+-moz-transition: .5s;
+-webkit-transition: .5s;
+transition: .5s;
+
+}
+
+button:hover{
+  background:#1884BB;
+    transition: .8s;
+  }
 
 #works {
   background-color: #404e5c;
