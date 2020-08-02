@@ -226,6 +226,11 @@ div.skillsTrioWrap div.skillsTrioIMG .fa-tshirt {
   margin-top: 1px;
 }
 
+div.skillsTrioWrap {
+  width: auto;
+  
+}
+
 .skillsTrioDesctiption {
   color: #555;
   font-family: 'Open Sans', sans-serif; 
@@ -239,7 +244,7 @@ div.skillsTrioWrap div.skillsTrioIMG .fa-tshirt {
   margin-bottom: 45px;
 }
 
-.skillbar {
+/* .skillbar {
   position: relative;
   display: block;
   margin-bottom: 15px;
@@ -311,7 +316,7 @@ div.skillsTrioWrap div.skillsTrioIMG .fa-tshirt {
   line-height: 35px;
   color: #000;
   font-weight: 300;
-}
+} */
 
 button { 
 background-color: rgb(182, 177, 177);
@@ -334,8 +339,8 @@ button:hover{
   background-color: #404e5c;
   font-weight: 100;
   color: #fff;
-  margin: 0 auto;
-  padding: 100px 0 70px 100px;
+  margin: 0 20px;
+  padding: 100px 0 70px 125px;
   text-align: center;
   overflow: hidden;
 }
