@@ -342,10 +342,11 @@ button:hover{
   background-color: #404e5c;
   font-weight: 100;
   color: #fff;
-  margin: 0 20px;
-  padding: 100px 50px 85px 50px;
+ padding: 100px 50px 85px 50px;
   text-align: center;
   overflow: hidden;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #works-showcase {
