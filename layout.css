@@ -2,7 +2,7 @@
 @import '_grid.css';
 
 body {
-  background-color: #313638;
+  background-color:#404e5c;
   cursor: default;    
   font-family: 'Raleway',sans-serif;
   line-height: 2.5em;
@@ -13,6 +13,8 @@ h2 {
   font-size: 50px;
   font-weight: 900;
   text-align: center;
+  margin-left: auto;
+  margin-right: auto;
   margin: 0;  
   padding: 0;
 }
@@ -26,7 +28,8 @@ h3.skillsTrioTittle {text-align: center; font-size: 22px;}
 .center {
   /* max-width: 960px; */
   display: block;
-  margin: 0 auto;
+  margin-left: auto;
+  margin-right: auto;
   text-align: left;
 }
 
@@ -201,7 +204,7 @@ a.navlink:hover {
   background-color:#e8e9eB;
   margin:0 auto;
   padding:100px 20px 85px 20px;
-  text-align:justify;
+  text-align:center;
 }
 
 div.skillsTrioWrap div.skillsTrioIMG {
@@ -340,7 +343,7 @@ button:hover{
   font-weight: 100;
   color: #fff;
   margin: 0 20px;
-  padding: 100px 0 70px 125px;
+  padding: 100px 50px 85px 50px;
   text-align: center;
   overflow: hidden;
 }
@@ -351,12 +354,14 @@ button:hover{
   line-height: 0;
   padding-top: 36px;
   width: 100vw;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 div.works-showcase-image {
   position: relative;
   display: block;
-  margin: 0 auto 36px;
+  margin: 0 50 36px;
   width: 33rem;
   height: 23rem;
   overflow: hidden;
